@@ -20,6 +20,9 @@ const nextButton = document.getElementById("nextButton");
 
 const feedback = document.getElementById("feedback");
 
+const scoreBoard = document.getElementById("scoreboard");
+const textLink = document.getElementById("text-link");
+
 let eligibleSongs = [];
 let questionSongs = [];
 let questionPool = [];
@@ -555,7 +558,7 @@ function showResult() {
 
   questionPanel.hidden = true;
   loadingPanel.hidden = true;
-
+  textLink.hidden = true;
   resultPanel.hidden = false;
 
   document.getElementById("finalScore").textContent =
