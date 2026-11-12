@@ -1,0 +1,495 @@
+[
+  {
+    "id": 1,
+    "vocadbId": 3022,
+    "title": "炉心融解",
+    "producers": [
+      "iroha(sasaki)"
+    ],
+    "artists": [
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/dSw8CucthGc/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/dSw8CucthGc",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm8089993",
+    "ratingScore": 3486,
+    "selected": true
+  },
+  {
+    "id": 2,
+    "vocadbId": 1320,
+    "title": "恋は戦争",
+    "producers": [
+      "ryo"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/2397344/2397344",
+    "youtubeUrl": "https://youtu.be/3Jf3rEzIFpA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm2397344",
+    "ratingScore": 2194,
+    "selected": true
+  },
+  {
+    "id": 3,
+    "vocadbId": 1326,
+    "title": "ワールドイズマイン",
+    "producers": [
+      "ryo"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/BrzIGkhF2Ak/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/JW-bFg06Qgc",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm3504435",
+    "ratingScore": 1929,
+    "selected": true
+  },
+  {
+    "id": 4,
+    "vocadbId": 1357,
+    "title": "ココロ",
+    "producers": [
+      "トラボルタ"
+    ],
+    "artists": [
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/2500648/2500648",
+    "youtubeUrl": "https://youtu.be/0h8sqfo3QJ4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm2500648",
+    "ratingScore": 1422,
+    "selected": true
+  },
+  {
+    "id": 5,
+    "vocadbId": 1323,
+    "title": "ブラック★ロックシューター",
+    "producers": [
+      "ryo"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/3645817/3645817",
+    "youtubeUrl": "https://youtu.be/OLzOrik5YJ8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm3645817",
+    "ratingScore": 1248,
+    "selected": true
+  },
+  {
+    "id": 6,
+    "vocadbId": 2443,
+    "title": "Last Night, Good Night",
+    "producers": [
+      "kz"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/T6mMMYSqlM4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/T6mMMYSqlM4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm4141643",
+    "ratingScore": 1223,
+    "selected": true
+  },
+  {
+    "id": 7,
+    "vocadbId": 4083,
+    "title": "ぽっぴっぽー",
+    "producers": [
+      "ラマーズP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/_1zRycWf6QY/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/7jN_RkBm2ao",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm5508956",
+    "ratingScore": 1145,
+    "selected": true
+  },
+  {
+    "id": 8,
+    "vocadbId": 28179,
+    "title": "chaosmaid",
+    "producers": [
+      "paraoka"
+    ],
+    "artists": [
+      "阿久女イク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/BmGN1vpZUcA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/BmGN1vpZUcA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/nm18446103",
+    "ratingScore": 1141,
+    "selected": false
+  },
+  {
+    "id": 9,
+    "vocadbId": 17332,
+    "title": "恐怖ガーデン",
+    "producers": [
+      "ちゃぁ"
+    ],
+    "artists": [
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/3880823/3880823",
+    "youtubeUrl": "https://youtu.be/atWqT9Ji73w",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm3880823",
+    "ratingScore": 1114,
+    "selected": true
+  },
+  {
+    "id": 10,
+    "vocadbId": 10515,
+    "title": "Love Love Nightmare",
+    "producers": [
+      "kiichi"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/diMBgUwfsVM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/diMBgUwfsVM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm4518874",
+    "ratingScore": 1094,
+    "selected": true
+  },
+  {
+    "id": 11,
+    "vocadbId": 2924,
+    "title": "＊ハロー、プラネット。",
+    "producers": [
+      "sasakure.UK"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/oVb6Gkf-IJM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/4wnKSR--bKI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7138245",
+    "ratingScore": 1013,
+    "selected": true
+  },
+  {
+    "id": 12,
+    "vocadbId": 1327,
+    "title": "初めての恋が終わる時",
+    "producers": [
+      "ryo"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/5524166/5524166",
+    "youtubeUrl": "https://youtu.be/9YDoZZkin7M",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm5524166",
+    "ratingScore": 837,
+    "selected": true
+  },
+  {
+    "id": 13,
+    "vocadbId": 1590,
+    "title": "悪ノ娘",
+    "producers": [
+      "mothy"
+    ],
+    "artists": [
+      "鏡音リン",
+      "鏡音レン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/W77q-kK8iA8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/sV7ODBvxw38",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm2916956",
+    "ratingScore": 818,
+    "selected": true
+  },
+  {
+    "id": 14,
+    "vocadbId": 1358,
+    "title": "悪ノ召使",
+    "producers": [
+      "mothy"
+    ],
+    "artists": [
+      "鏡音レン",
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/yzpNpaS0uLc/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/GC6YNb6ZLKg",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm3133304",
+    "ratingScore": 810,
+    "selected": true
+  },
+  {
+    "id": 15,
+    "vocadbId": 459,
+    "title": "サイハテ",
+    "producers": [
+      "小林オニキス"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/2053548/2053548",
+    "youtubeUrl": "https://youtu.be/ZM_rzQx4p5Q",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm2053548",
+    "ratingScore": 802,
+    "selected": true
+  },
+  {
+    "id": 16,
+    "vocadbId": 5833,
+    "title": "クローバー♣クラブ",
+    "producers": [
+      "ゆうゆ"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/1937053/1937053",
+    "youtubeUrl": "https://youtu.be/rNtHG8jU6Es",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1937053",
+    "ratingScore": 777,
+    "selected": true
+  },
+  {
+    "id": 17,
+    "vocadbId": 7238,
+    "title": "サンドリヨン",
+    "producers": [
+      "Dios/シグナルP"
+    ],
+    "artists": [
+      "初音ミク",
+      "KAITO"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/4410647/4410647",
+    "youtubeUrl": "https://youtu.be/I6JWIzX6QgU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm4410647",
+    "ratingScore": 706,
+    "selected": true
+  },
+  {
+    "id": 18,
+    "vocadbId": 1437,
+    "title": "Promise",
+    "producers": [
+      "samfree"
+    ],
+    "artists": [
+      "鏡音リン",
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/w3RBNI6kz-4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/w3RBNI6kz-4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1961633",
+    "ratingScore": 613,
+    "selected": true
+  },
+  {
+    "id": 19,
+    "vocadbId": 16459,
+    "title": "耳のあるロボットの唄",
+    "producers": [
+      "耳ロボP"
+    ],
+    "artists": [
+      "重音テト 旧"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/bVqGnaE2-wM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/4njHMiiU0WE",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/nm3611741",
+    "ratingScore": 581,
+    "selected": false
+  },
+  {
+    "id": 20,
+    "vocadbId": 9035,
+    "title": "ピアノ×フォルテ×スキャンダル",
+    "producers": [
+      "OSTER project"
+    ],
+    "artists": [
+      "MEIKO"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/JQTl7IvOX0E/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/JQTl7IvOX0E",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm5597663",
+    "ratingScore": 555,
+    "selected": true
+  },
+  {
+    "id": 21,
+    "vocadbId": 18355,
+    "title": "おかあさん",
+    "producers": [
+      "マチゲリータ"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/fOAty3KOAwU/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/fOAty3KOAwU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm2172473",
+    "ratingScore": 548,
+    "selected": false
+  },
+  {
+    "id": 22,
+    "vocadbId": 7922,
+    "title": "逆さまレインボー",
+    "producers": [
+      "すんｚりヴぇｒP"
+    ],
+    "artists": [
+      "鏡音リン",
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/4218005/4218005",
+    "youtubeUrl": "https://youtu.be/Ytmpa_v10n8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm4218005",
+    "ratingScore": 543,
+    "selected": true
+  },
+  {
+    "id": 23,
+    "vocadbId": 3244,
+    "title": "trick and treat",
+    "producers": [
+      "OSTER project"
+    ],
+    "artists": [
+      "鏡音リン",
+      "鏡音レン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/EEPdHJxJCrA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/EEPdHJxJCrA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm5094908",
+    "ratingScore": 474,
+    "selected": true
+  },
+  {
+    "id": 24,
+    "vocadbId": 11877,
+    "title": "VOiCE",
+    "producers": [
+      "ラヴリーP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/AgpU1gL1Py4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/AgpU1gL1Py4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm4271779",
+    "ratingScore": 467,
+    "selected": true
+  },
+  {
+    "id": 25,
+    "vocadbId": 4318,
+    "title": "人柱アリス",
+    "producers": [
+      "歪P"
+    ],
+    "artists": [
+      "MEIKO",
+      "KAITO",
+      "初音ミク",
+      "鏡音リン",
+      "鏡音レン"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/3143714/3143714",
+    "youtubeUrl": "https://youtu.be/T8Kelg2KiWE",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm3143714",
+    "ratingScore": 467,
+    "selected": true
+  },
+  {
+    "id": 26,
+    "vocadbId": 8241,
+    "title": "番凩",
+    "producers": [
+      "hinayukki"
+    ],
+    "artists": [
+      "KAITO",
+      "MEIKO"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/62FkU3L2N_8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/62FkU3L2N_8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm4794708",
+    "ratingScore": 458,
+    "selected": true
+  },
+  {
+    "id": 27,
+    "vocadbId": 6387,
+    "title": "Fire◎Flower",
+    "producers": [
+      "halyosy",
+      "is"
+    ],
+    "artists": [
+      "鏡音レン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/myEsj-qf73A/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/myEsj-qf73A",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm4153727",
+    "ratingScore": 456,
+    "selected": true
+  },
+  {
+    "id": 28,
+    "vocadbId": 3155,
+    "title": "千年の独奏歌",
+    "producers": [
+      "yanagiP"
+    ],
+    "artists": [
+      "KAITO"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/IudXfIgXH-s/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/IudXfIgXH-s",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm3122624",
+    "ratingScore": 447,
+    "selected": false
+  },
+  {
+    "id": 29,
+    "vocadbId": 8093,
+    "title": "ジェミニ",
+    "producers": [
+      "Dixie Flatline"
+    ],
+    "artists": [
+      "鏡音リン",
+      "鏡音レン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/x_qYQaWC_n0/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/x_qYQaWC_n0",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm2540481",
+    "ratingScore": 419,
+    "selected": false
+  },
+  {
+    "id": 30,
+    "vocadbId": 2447,
+    "title": "Chaining Intention",
+    "producers": [
+      "Treow"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/LEnRObabAdE/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/LEnRObabAdE",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm5180053",
+    "ratingScore": 417,
+    "selected": false
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "vocadbId": 1032,
+    "title": "ロミオとシンデレラ",
+    "producers": [
+      "doriko"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/9HrOqmiEsN8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/9HrOqmiEsN8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6666016",
+    "ratingScore": 2065,
+    "selected": true
+  },
+  {
+    "id": 2,
+    "vocadbId": 1508,
+    "title": "裏表ラバーズ",
+    "producers": [
+      "wowaka"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/b_cuMcDWwsI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/b_cuMcDWwsI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm8082467",
+    "ratingScore": 1865,
+    "selected": true
+  },
+  {
+    "id": 3,
+    "vocadbId": 1435,
+    "title": "ルカルカ★ナイトフィーバー",
+    "producers": [
+      "samfree"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/v1iomlLD3jc/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/v1iomlLD3jc",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6119955",
+    "ratingScore": 1727,
+    "selected": true
+  },
+  {
+    "id": 4,
+    "vocadbId": 5166,
+    "title": "magnet",
+    "producers": [
+      "湊貴大"
+    ],
+    "artists": [
+      "初音ミク",
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/K_is6LWTYv4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/egxSBhfjcTU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6909505",
+    "ratingScore": 1627,
+    "selected": true
+  },
+  {
+    "id": 5,
+    "vocadbId": 2982,
+    "title": "結ンデ開イテ羅刹ト骸",
+    "producers": [
+      "ハチ"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/AKffZySqQts/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/AKffZySqQts",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7550182",
+    "ratingScore": 1526,
+    "selected": true
+  },
+  {
+    "id": 6,
+    "vocadbId": 3129,
+    "title": "ダブルラリアット",
+    "producers": [
+      "アゴアニキ"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/hC8KrIY8qT4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/hC8KrIY8qT4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/nm6049209",
+    "ratingScore": 1371,
+    "selected": true
+  },
+  {
+    "id": 7,
+    "vocadbId": 1360,
+    "title": "Just Be Friends",
+    "producers": [
+      "Dixie Flatline"
+    ],
+    "artists": [
+      "巡音ルカ",
+      "630"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/li1WjKl2boY/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/li1WjKl2boY",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7528841",
+    "ratingScore": 1168,
+    "selected": true
+  },
+  {
+    "id": 8,
+    "vocadbId": 3269,
+    "title": "天樂",
+    "producers": [
+      "ゆうゆ"
+    ],
+    "artists": [
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/wRoA3VuDK4c/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/wRoA3VuDK4c",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7918983",
+    "ratingScore": 1029,
+    "selected": true
+  },
+  {
+    "id": 9,
+    "vocadbId": 1119,
+    "title": "Palette",
+    "producers": [
+      "ゆよゆっぺ",
+      "meola"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/vP_IgKTrq2U/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/vP_IgKTrq2U",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6828492",
+    "ratingScore": 998,
+    "selected": true
+  },
+  {
+    "id": 10,
+    "vocadbId": 12285,
+    "title": "あぁあぁあぁああぁあぁああぁ",
+    "producers": [
+      "梨本うい"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/8A7w_tv87NE/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/8A7w_tv87NE",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6816232",
+    "ratingScore": 985,
+    "selected": true
+  },
+  {
+    "id": 11,
+    "vocadbId": 5859,
+    "title": "二息歩行",
+    "producers": [
+      "DECO*27"
+    ],
+    "artists": [
+      "初音ミク",
+      "とぴ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/O4ygRYdrwWk/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/O4ygRYdrwWk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm8061508",
+    "ratingScore": 917,
+    "selected": true
+  },
+  {
+    "id": 12,
+    "vocadbId": 13883,
+    "title": "Francium",
+    "producers": [
+      "kiichi"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/YoeIxwFLc6k/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/YoeIxwFLc6k",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6460566",
+    "ratingScore": 857,
+    "selected": true
+  },
+  {
+    "id": 13,
+    "vocadbId": 1047,
+    "title": "星屑ユートピア",
+    "producers": [
+      "otetsu"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/syk1f6Dj82E/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/PffdnXIRjf8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/nm5988510",
+    "ratingScore": 845,
+    "selected": true
+  },
+  {
+    "id": 14,
+    "vocadbId": 1582,
+    "title": "骸Attack!!",
+    "producers": [
+      "鬱P"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/Fr3HuXB0Crw/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/Fr3HuXB0Crw",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7526338",
+    "ratingScore": 838,
+    "selected": true
+  },
+  {
+    "id": 15,
+    "vocadbId": 1890,
+    "title": "パラジクロロベンゼン",
+    "producers": [
+      "オワタP"
+    ],
+    "artists": [
+      "鏡音レン",
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/aTUfwLAVSHE/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/NifpMj1QFIk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm8269164",
+    "ratingScore": 792,
+    "selected": true
+  },
+  {
+    "id": 16,
+    "vocadbId": 2823,
+    "title": "ロッテンガールグロテスクロマンス",
+    "producers": [
+      "マチゲリータ"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/cZwrecEXhn8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/xGThHuZ3lBQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7704306",
+    "ratingScore": 784,
+    "selected": false
+  },
+  {
+    "id": 17,
+    "vocadbId": 3015,
+    "title": "恋色病棟",
+    "producers": [
+      "OSTER project"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/tPnIwDBk09k/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/tPnIwDBk09k",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7361534",
+    "ratingScore": 761,
+    "selected": true
+  },
+  {
+    "id": 18,
+    "vocadbId": 1588,
+    "title": "悪食娘コンチータ",
+    "producers": [
+      "mothy"
+    ],
+    "artists": [
+      "MEIKO",
+      "鏡音レン",
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/8QMWmr2mFKk/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/0LP8WIE5fTQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6328922",
+    "ratingScore": 737,
+    "selected": true
+  },
+  {
+    "id": 19,
+    "vocadbId": 4230,
+    "title": "from Y to Y",
+    "producers": [
+      "ジミーサムP"
+    ],
+    "artists": [
+      "初音ミク",
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/CDTiyUm5ggM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/9pQR4a5sisE",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6529016",
+    "ratingScore": 734,
+    "selected": true
+  },
+  {
+    "id": 20,
+    "vocadbId": 1506,
+    "title": "とおせんぼ",
+    "producers": [
+      "wowaka"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/uxNoOPetZ6g/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/uxNoOPetZ6g",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7357463",
+    "ratingScore": 731,
+    "selected": true
+  },
+  {
+    "id": 21,
+    "vocadbId": 2808,
+    "title": "円尾坂の仕立屋",
+    "producers": [
+      "mothy"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/etn41n6wtAQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/xmB3zSBMVQs",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm9032932",
+    "ratingScore": 695,
+    "selected": true
+  },
+  {
+    "id": 22,
+    "vocadbId": 1318,
+    "title": "君の体温",
+    "producers": [
+      "クワガタP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/t0PtXau1vjg/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/t0PtXau1vjg",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm9189786",
+    "ratingScore": 687,
+    "selected": true
+  },
+  {
+    "id": 23,
+    "vocadbId": 3019,
+    "title": "愛言葉",
+    "producers": [
+      "DECO*27"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/I0eeS5wYGzI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/I0eeS5wYGzI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7696158",
+    "ratingScore": 670,
+    "selected": true
+  },
+  {
+    "id": 24,
+    "vocadbId": 1952,
+    "title": "右肩の蝶",
+    "producers": [
+      "のりぴー"
+    ],
+    "artists": [
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/DgmPyanqjbA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/DgmPyanqjbA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm6609407",
+    "ratingScore": 667,
+    "selected": true
+  },
+  {
+    "id": 25,
+    "vocadbId": 1573,
+    "title": "Mrs.Pumpkinの滑稽な夢",
+    "producers": [
+      "ハチ"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/8489562/8489562",
+    "youtubeUrl": "https://youtu.be/_xs6LjWf3sM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm8489562",
+    "ratingScore": 657,
+    "selected": true
+  },
+  {
+    "id": 26,
+    "vocadbId": 1516,
+    "title": "SPiCa",
+    "producers": [
+      "とくP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/orbCMnvvNwI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/orbCMnvvNwI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7756597",
+    "ratingScore": 645,
+    "selected": true
+  },
+  {
+    "id": 27,
+    "vocadbId": 438639,
+    "title": "亜空間255",
+    "producers": [
+      "ex-Dr. WILLY"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/sWq6TSrExfU/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/sWq6TSrExfU",
+    "niconicoUrl": null,
+    "ratingScore": 634,
+    "selected": false
+  },
+  {
+    "id": 28,
+    "vocadbId": 7234,
+    "title": "RIP=RELEASE",
+    "producers": [
+      "湊貴大"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/0aIQJPLm1ww/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/BaqpQ1UNzeU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm5992615",
+    "ratingScore": 628,
+    "selected": true
+  },
+  {
+    "id": 29,
+    "vocadbId": 8246,
+    "title": "1/6 -out of the gravity-",
+    "producers": [
+      "ぼーかりおどP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/EUsU8kDOv_g/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/EUsU8kDOv_g",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/nm6971638",
+    "ratingScore": 621,
+    "selected": true
+  },
+  {
+    "id": 30,
+    "vocadbId": 552,
+    "title": "ACUTE",
+    "producers": [
+      "黒うさP"
+    ],
+    "artists": [
+      "初音ミク",
+      "巡音ルカ",
+      "KAITO"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/7992704/7992704",
+    "youtubeUrl": "https://youtu.be/g-41SEI7c-M",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm7992704",
+    "ratingScore": 590,
+    "selected": true
+  }
+]

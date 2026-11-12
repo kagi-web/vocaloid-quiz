@@ -1,0 +1,498 @@
+[
+  {
+    "id": 1,
+    "vocadbId": 1501,
+    "title": "ローリンガール",
+    "producers": [
+      "wowaka"
+    ],
+    "artists": [
+      "初音ミク",
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/vnw8zURAxkU/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/vnw8zURAxkU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm9714351",
+    "ratingScore": 3792,
+    "selected": true
+  },
+  {
+    "id": 2,
+    "vocadbId": 368,
+    "title": "マトリョシカ",
+    "producers": [
+      "ハチ"
+    ],
+    "artists": [
+      "初音ミク",
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/HOz-9FzIDf0/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/HOz-9FzIDf0",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm11809611",
+    "ratingScore": 2955,
+    "selected": true
+  },
+  {
+    "id": 3,
+    "vocadbId": 20,
+    "title": "ワールズエンド・ダンスホール",
+    "producers": [
+      "wowaka"
+    ],
+    "artists": [
+      "初音ミク",
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/ZB75e7vzX0I/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/ZB75e7vzX0I",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm10759623",
+    "ratingScore": 2311,
+    "selected": true
+  },
+  {
+    "id": 4,
+    "vocadbId": 1381,
+    "title": "モザイクロール",
+    "producers": [
+      "DECO*27"
+    ],
+    "artists": [
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/DnLFVUi3oOU/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/DnLFVUi3oOU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm11398357",
+    "ratingScore": 1634,
+    "selected": true
+  },
+  {
+    "id": 5,
+    "vocadbId": 4980,
+    "title": "Leia",
+    "producers": [
+      "ゆよゆっぺ"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/NPU0O5mUJbs/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/NPU0O5mUJbs",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm13185918",
+    "ratingScore": 1382,
+    "selected": true
+  },
+  {
+    "id": 6,
+    "vocadbId": 8735,
+    "title": "深海少女",
+    "producers": [
+      "ゆうゆ"
+    ],
+    "artists": [
+      "初音ミク",
+      "初音ミク Append (Dark)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/2CwBFr-Eoxg/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/2CwBFr-Eoxg",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm11956364",
+    "ratingScore": 1333,
+    "selected": true
+  },
+  {
+    "id": 7,
+    "vocadbId": 373,
+    "title": "秘密警察",
+    "producers": [
+      "ぶりるP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/_XB3PxNZpT4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/_XB3PxNZpT4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12695779",
+    "ratingScore": 1133,
+    "selected": true
+  },
+  {
+    "id": 8,
+    "vocadbId": 2978,
+    "title": "パンダヒーロー",
+    "producers": [
+      "ハチ"
+    ],
+    "artists": [
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/0RU_05zpETo/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/0RU_05zpETo",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm13386216",
+    "ratingScore": 1118,
+    "selected": true
+  },
+  {
+    "id": 9,
+    "vocadbId": 1268,
+    "title": "弱虫モンブラン",
+    "producers": [
+      "DECO*27"
+    ],
+    "artists": [
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/B-A2eYlbrwQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/B-A2eYlbrwQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm10393864",
+    "ratingScore": 946,
+    "selected": true
+  },
+  {
+    "id": 10,
+    "vocadbId": 12443,
+    "title": "ネトゲ廃人シュプレヒコール",
+    "producers": [
+      "さつき が てんこもり"
+    ],
+    "artists": [
+      "初音ミク",
+      "Unknown talk synth(s)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/WdAy_55dxqA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/WdAy_55dxqA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12441199",
+    "ratingScore": 933,
+    "selected": true
+  },
+  {
+    "id": 11,
+    "vocadbId": 4129,
+    "title": "メランコリック",
+    "producers": [
+      "Junky"
+    ],
+    "artists": [
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/86_kvUqhY-A/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/86_kvUqhY-A",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm10444862",
+    "ratingScore": 932,
+    "selected": true
+  },
+  {
+    "id": 12,
+    "vocadbId": 3177,
+    "title": "ハッピーシンセサイザ",
+    "producers": [
+      "EasyPop"
+    ],
+    "artists": [
+      "巡音ルカ",
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/xOKplMgHxxA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/xOKplMgHxxA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12825985",
+    "ratingScore": 885,
+    "selected": true
+  },
+  {
+    "id": 13,
+    "vocadbId": 1383,
+    "title": "Sweet Devil",
+    "producers": [
+      "八王子P"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/atXcWO54Ek0/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/atXcWO54Ek0",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm9711503",
+    "ratingScore": 836,
+    "selected": true
+  },
+  {
+    "id": 14,
+    "vocadbId": 2904,
+    "title": "こっち向いて Baby",
+    "producers": [
+      "ryo"
+    ],
+    "artists": [
+      "初音ミク Append (Light)"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/11251970/11251970",
+    "youtubeUrl": "https://youtu.be/E_LJXhQLwrk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/so11251970",
+    "ratingScore": 825,
+    "selected": true
+  },
+  {
+    "id": 15,
+    "vocadbId": 1277,
+    "title": "ヴェノマニア公の狂気",
+    "producers": [
+      "mothy"
+    ],
+    "artists": [
+      "神威がくぽ",
+      "MEIKO",
+      "GUMI",
+      "KAITO",
+      "初音ミク",
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/zz4b7bBZ1N8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/zz4b7bBZ1N8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm11519178",
+    "ratingScore": 822,
+    "selected": true
+  },
+  {
+    "id": 16,
+    "vocadbId": 7042,
+    "title": "ゴチャゴチャうるせー！",
+    "producers": [
+      "オワタP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/-bt0IP16PZI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/-bt0IP16PZI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12294498",
+    "ratingScore": 799,
+    "selected": true
+  },
+  {
+    "id": 17,
+    "vocadbId": 1024,
+    "title": "キャットフード",
+    "producers": [
+      "doriko"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/9aOBfAq7Ra4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/k2uywrdsmXQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12774972",
+    "ratingScore": 779,
+    "selected": false
+  },
+  {
+    "id": 18,
+    "vocadbId": 1359,
+    "title": "トリノコシティ",
+    "producers": [
+      "40mP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/yIQDGwyJpSo/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/yIQDGwyJpSo",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm11559163",
+    "ratingScore": 749,
+    "selected": true
+  },
+  {
+    "id": 19,
+    "vocadbId": 4322,
+    "title": "おちゃめ機能 -Full ver.-",
+    "producers": [
+      "ゴジマジＰ"
+    ],
+    "artists": [
+      "重音テト"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/AG8KkBzO7vM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/yr3k-Ok9GE4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12276096",
+    "ratingScore": 723,
+    "selected": true
+  },
+  {
+    "id": 20,
+    "vocadbId": 3390,
+    "title": "Blackjack",
+    "producers": [
+      "ゆちゃP"
+    ],
+    "artists": [
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/yIc8j0oMAW8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/yIc8j0oMAW8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12640192",
+    "ratingScore": 723,
+    "selected": true
+  },
+  {
+    "id": 21,
+    "vocadbId": 2716,
+    "title": "え？あぁ、そう。",
+    "producers": [
+      "蝶々P"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/JWiH4evMVPQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/JWiH4evMVPQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm10122021",
+    "ratingScore": 719,
+    "selected": true
+  },
+  {
+    "id": 22,
+    "vocadbId": 3312,
+    "title": "白い雪のプリンセスは",
+    "producers": [
+      "のぼる↑"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/aPb-MTcpNbE/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/aPb-MTcpNbE",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm9797269",
+    "ratingScore": 685,
+    "selected": true
+  },
+  {
+    "id": 23,
+    "vocadbId": 382,
+    "title": "秘蜜〜黒の誓い〜",
+    "producers": [
+      "ひとしずくP"
+    ],
+    "artists": [
+      "鏡音リン",
+      "鏡音レン",
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/zrdSQrxRKgw/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/zrdSQrxRKgw",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm10282629",
+    "ratingScore": 671,
+    "selected": true
+  },
+  {
+    "id": 24,
+    "vocadbId": 2980,
+    "title": "リンネ",
+    "producers": [
+      "ハチ"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/EahYs-8tTjQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/EahYs-8tTjQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm11468381",
+    "ratingScore": 644,
+    "selected": true
+  },
+  {
+    "id": 25,
+    "vocadbId": 1797,
+    "title": "glow",
+    "producers": [
+      "keeno"
+    ],
+    "artists": [
+      "初音ミク Append (Dark)"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/11209477/11209477",
+    "youtubeUrl": "https://youtu.be/YJAP8LU4keg",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm11209477",
+    "ratingScore": 625,
+    "selected": true
+  },
+  {
+    "id": 26,
+    "vocadbId": 1416,
+    "title": "ハロ／ハワユ",
+    "producers": [
+      "ナノウ"
+    ],
+    "artists": [
+      "初音ミク Append (Soft)",
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/-M4sAQYi6r4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/-M4sAQYi6r4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm11448603",
+    "ratingScore": 623,
+    "selected": true
+  },
+  {
+    "id": 27,
+    "vocadbId": 372,
+    "title": "アンチクロロベンゼン",
+    "producers": [
+      "オワタP"
+    ],
+    "artists": [
+      "鏡音リン",
+      "鏡音レン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/9mOzdi0XIlc/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/9mOzdi0XIlc",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12154467",
+    "ratingScore": 609,
+    "selected": true
+  },
+  {
+    "id": 28,
+    "vocadbId": 2905,
+    "title": "Yellow",
+    "producers": [
+      "kz"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/11251947/11251947",
+    "youtubeUrl": "https://youtu.be/tvnlgjquZ3Y",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/so11251947",
+    "ratingScore": 602,
+    "selected": true
+  },
+  {
+    "id": 29,
+    "vocadbId": 1354,
+    "title": "タイムマシン",
+    "producers": [
+      "40mP",
+      "1640mP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/EgOWe9ByNaE/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/EgOWe9ByNaE",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12098837",
+    "ratingScore": 587,
+    "selected": true
+  },
+  {
+    "id": 30,
+    "vocadbId": 13339,
+    "title": "-ERROR",
+    "producers": [
+      "niki"
+    ],
+    "artists": [
+      "Lily"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/jvoW9lJdirk/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/jvoW9lJdirk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm12099561",
+    "ratingScore": 572,
+    "selected": true
+  }
+]

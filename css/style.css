@@ -1,0 +1,257 @@
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #55cbb3;
+  --main-dark: #35aa96;
+  --main-light: #e5f8f3;
+
+  --pink: #f5a4bd;
+  --yellow: #f4d77d;
+
+  --text: #30454b;
+  --muted: #82969a;
+  --line: #e2ece9;
+
+  --surface: #ffffff;
+  --background: #f2f8f6;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f3f8f6;
+  color: var(--text);
+  font-family:
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Noto Sans JP", sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--yellow);
+  outline-offset: 3px;
+}
+
+.home {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+}
+
+.home-card,
+.panel {
+  width: min(100%, 760px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(56, 115, 103, 0.08);
+}
+
+.home-card {
+  position: relative;
+  padding: clamp(28px, 5vw, 48px);
+  text-align: center;
+  overflow: hidden;
+}
+
+/* カード上部のアクセント */
+.home-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--main),
+    #8bdcc9,
+    var(--pink)
+  );
+}
+
+/* タイトル上のラベル */
+.eyebrow {
+  display: inline-block;
+  margin: 0 0 15px;
+  padding: 7px 14px;
+  border-radius: 20px;
+  background: var(--main-light);
+  color: var(--main-dark);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+/* メインタイトル */
+h1 {
+  margin: 0;
+  color: #304d50;
+  font-size: clamp(1.55rem, 4vw, 2.2rem);
+  font-weight: 850;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.lead {
+  margin: 14px 0 28px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* ルール欄 */
+.rules {
+  margin: 0 auto 28px;
+  padding: 21px 24px;
+  max-width: 560px;
+  background: #f5faf8;
+  border: 1px solid #e5f0ec;
+  border-radius: 13px;
+  text-align: left;
+}
+
+.rules .highlight {
+  color: #35aa96;
+  font-weight: 700;
+}
+
+.rules h2 {
+  margin: 0 0 11px;
+  color: var(--main-dark);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.rules ul {
+  margin: 0;
+  padding-left: 1.3em;
+  color: #586d70;
+  line-height: 1.7;
+  font-size: 0.92rem;
+}
+
+.rules li::marker {
+  color: var(--main-dark);
+}
+
+/* スタートボタン */
+.primary-button {
+  min-height: 50px;
+  padding: 13px 36px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--main);
+  color: #ffffff;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.primary-button:hover:not(:disabled) {
+  background: var(--main-dark);
+  transform: translateY(-1px);
+}
+
+.primary-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.primary-button:disabled {
+  background: #c5d9d3;
+  cursor: not-allowed;
+}
+
+/* テキストリンク */
+.text-link {
+  color: var(--main-dark);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.text-link:hover {
+  color: #df819f;
+  text-decoration: underline;
+}
+
+/* ステータス */
+.status {
+  min-height: 1.4em;
+  margin: 14px 0 0;
+  color: #d87996;
+  font-size: 0.9rem;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.site-footer {
+  margin-top: 50px;
+  padding: 24px 16px;
+  text-align: center;
+  font-size: 13px;
+  color: #82969a;
+  border-top: 1px solid #e2ece9;
+}
+
+.site-footer p {
+  margin: 0 0 8px;
+}
+
+.site-footer a {
+  color: #35aa96;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.credit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.credit-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 8px;
+}
+
+.credit-links p {
+    margin: 0;
+}
+
+.credit-owner {
+    margin-top: 8px;
+}
+
+/* スマートフォン */
+@media (max-width: 520px) {
+  .home {
+    padding: 20px 13px;
+  }
+
+  .home-card {
+    padding: 28px 19px;
+    border-radius: 16px;
+  }
+
+  .rules {
+    padding: 18px;
+  }
+
+  .primary-button {
+    width: 100%;
+  }
+}

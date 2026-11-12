@@ -1,0 +1,837 @@
+[
+  {
+    "id": 1,
+    "vocadbId": 19094,
+    "title": "ロストワンの号哭",
+    "producers": [
+      "Neru"
+    ],
+    "artists": [
+      "鏡音リン Append (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/8oBV3jPTW4s/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/8oBV3jPTW4s",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20244918",
+    "ratingScore": 2474,
+    "selected": true
+  },
+  {
+    "id": 2,
+    "vocadbId": 35603,
+    "title": "ビバハピ",
+    "producers": [
+      "Mitchie M"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/WiUjG9fF3zw/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/WiUjG9fF3zw",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21443197",
+    "ratingScore": 1516,
+    "selected": true
+  },
+  {
+    "id": 3,
+    "vocadbId": 25667,
+    "title": "愛して愛して愛して",
+    "producers": [
+      "きくお"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/NTrm_idbhUk/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/NTrm_idbhUk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm25724827",
+    "ratingScore": 1513,
+    "selected": true
+  },
+  {
+    "id": 4,
+    "vocadbId": 42676,
+    "title": "ドーナツホール",
+    "producers": [
+      "ハチ"
+    ],
+    "artists": [
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/qnX2CdOBcDI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/qnX2CdOBcDI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm22138447",
+    "ratingScore": 1452,
+    "selected": true
+  },
+  {
+    "id": 5,
+    "vocadbId": 42111,
+    "title": "少女A",
+    "producers": [
+      "椎名もた"
+    ],
+    "artists": [
+      "鏡音リン Append (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/AqI97zHMoQw/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/AqI97zHMoQw",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm22061366",
+    "ratingScore": 1301,
+    "selected": true
+  },
+  {
+    "id": 6,
+    "vocadbId": 44190,
+    "title": "おこちゃま戦争",
+    "producers": [
+      "Giga"
+    ],
+    "artists": [
+      "鏡音レン Append (Power)",
+      "鏡音リン Append (Power)",
+      "鏡音リン Append (Sweet)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/qYAmduGAwBQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/qYAmduGAwBQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm22349544",
+    "ratingScore": 1288,
+    "selected": true
+  },
+  {
+    "id": 7,
+    "vocadbId": 38835,
+    "title": "脳内革命ガール",
+    "producers": [
+      "MARETU"
+    ],
+    "artists": [
+      "初音ミク",
+      "初音ミク Append (Dark)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/sjr-tPFADpM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/sjr-tPFADpM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21870906",
+    "ratingScore": 989,
+    "selected": true
+  },
+  {
+    "id": 8,
+    "vocadbId": 24239,
+    "title": "幸せになれる隠しコマンドがあるらしい",
+    "producers": [
+      "うたたP"
+    ],
+    "artists": [
+      "結月ゆかり"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/lwT4h6x3UM0/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/lwT4h6x3UM0",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21249768",
+    "ratingScore": 982,
+    "selected": true
+  },
+  {
+    "id": 9,
+    "vocadbId": 21757,
+    "title": "Q",
+    "producers": [
+      "椎名もた"
+    ],
+    "artists": [
+      "鏡音リン Append (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/EQH2Pb8FTac/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/EQH2Pb8FTac",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm19898621",
+    "ratingScore": 961,
+    "selected": true
+  },
+  {
+    "id": 10,
+    "vocadbId": 22421,
+    "title": "コインロッカーベイビー",
+    "producers": [
+      "MARETU"
+    ],
+    "artists": [
+      "初音ミク",
+      "初音ミク Append (Dark)",
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/QA5zuzc1WYA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/QA5zuzc1WYA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm19980280",
+    "ratingScore": 957,
+    "selected": true
+  },
+  {
+    "id": 11,
+    "vocadbId": 38420,
+    "title": "アゲアゲアゲイン",
+    "producers": [
+      "Mitchie M"
+    ],
+    "artists": [
+      "初音ミク",
+      "KAITO V3 (Unknown)",
+      "巡音ルカ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/uwwU55zBYlQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/uwwU55zBYlQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21965634",
+    "ratingScore": 946,
+    "selected": true
+  },
+  {
+    "id": 12,
+    "vocadbId": 36002,
+    "title": "しかばねの踊り",
+    "producers": [
+      "きくお"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/O9eHRiaTuL4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/O9eHRiaTuL4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21720548",
+    "ratingScore": 887,
+    "selected": true
+  },
+  {
+    "id": 13,
+    "vocadbId": 28646,
+    "title": "アウターサイエンス",
+    "producers": [
+      "じん",
+      "Nhato"
+    ],
+    "artists": [
+      "IA"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/HswIHVN5D4o/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/HswIHVN5D4o",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21720819",
+    "ratingScore": 852,
+    "selected": true
+  },
+  {
+    "id": 14,
+    "vocadbId": 25725,
+    "title": "君はできない子",
+    "producers": [
+      "きくお"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/nPF7lit7Z00/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/nPF7lit7Z00",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20410104",
+    "ratingScore": 834,
+    "selected": true
+  },
+  {
+    "id": 15,
+    "vocadbId": 21604,
+    "title": "自傷無色",
+    "producers": [
+      "ササノマリイ"
+    ],
+    "artists": [
+      "初音ミク Append (Soft)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/BPIq2ZVnPAo/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/BPIq2ZVnPAo",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm19870840",
+    "ratingScore": 833,
+    "selected": false
+  },
+  {
+    "id": 16,
+    "vocadbId": 38393,
+    "title": "聖槍爆裂ボーイ",
+    "producers": [
+      "れるりり",
+      "もじゃ"
+    ],
+    "artists": [
+      "鏡音レン Append (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/MqNmKnCNLyM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/MqNmKnCNLyM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21702752",
+    "ratingScore": 772,
+    "selected": true
+  },
+  {
+    "id": 17,
+    "vocadbId": 38916,
+    "title": "妄想税",
+    "producers": [
+      "kous",
+      "DECO*27"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/sWvZfwY8beg/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/sWvZfwY8beg",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21764582",
+    "ratingScore": 750,
+    "selected": true
+  },
+  {
+    "id": 18,
+    "vocadbId": 22539,
+    "title": "ハウトゥー世界征服",
+    "producers": [
+      "Neru"
+    ],
+    "artists": [
+      "鏡音レン Append (Power)",
+      "鏡音リン Append (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/HdC2cB_DZok/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/HdC2cB_DZok",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20286605",
+    "ratingScore": 735,
+    "selected": true
+  },
+  {
+    "id": 19,
+    "vocadbId": 30981,
+    "title": "看板娘の悪巫山戯",
+    "producers": [
+      "鬱P"
+    ],
+    "artists": [
+      "鏡音リン",
+      "初音ミク Append (Dark)",
+      "V3 GUMI (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/E4kcWPLtBFM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/E4kcWPLtBFM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21438326",
+    "ratingScore": 734,
+    "selected": true
+  },
+  {
+    "id": 20,
+    "vocadbId": 28130,
+    "title": "MiKUSABBATH",
+    "producers": [
+      "鬱P"
+    ],
+    "artists": [
+      "初音ミク Append (Solid)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/a0NXgr5jCWk/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/a0NXgr5jCWk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20637855",
+    "ratingScore": 678,
+    "selected": true
+  },
+  {
+    "id": 21,
+    "vocadbId": 45753,
+    "title": "少女ケシゴム",
+    "producers": [
+      "MARETU"
+    ],
+    "artists": [
+      "初音ミク",
+      "V3 GUMI (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/KENZWTQFrQ0/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/5LTGP9HmGrg",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm22542108",
+    "ratingScore": 654,
+    "selected": false
+  },
+  {
+    "id": 22,
+    "vocadbId": 42733,
+    "title": "愛の詩",
+    "producers": [
+      "ラマーズP"
+    ],
+    "artists": [
+      "初音ミク V3 (Original)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/E2oRrLUxWKo/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/E2oRrLUxWKo",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm22151787",
+    "ratingScore": 649,
+    "selected": true
+  },
+  {
+    "id": 23,
+    "vocadbId": 37948,
+    "title": "マネマネサイコトロピック",
+    "producers": [
+      "かいりきベア"
+    ],
+    "artists": [
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/2NkN_QpmnFM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/2NkN_QpmnFM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21660475",
+    "ratingScore": 649,
+    "selected": true
+  },
+  {
+    "id": 24,
+    "vocadbId": 91592,
+    "title": "ヤツメ穴",
+    "producers": [
+      "ころんば"
+    ],
+    "artists": [
+      "ころんば4号",
+      "唄音ウタ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/2RmhTbVinV4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/2RmhTbVinV4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm30531878",
+    "ratingScore": 637,
+    "selected": false
+  },
+  {
+    "id": 25,
+    "vocadbId": 45526,
+    "title": "スイートスレイヴコメディ",
+    "producers": [
+      "アキバヲタP"
+    ],
+    "artists": [
+      "雪歌ユフ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/5L2NXbpN3T8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/5L2NXbpN3T8",
+    "niconicoUrl": null,
+    "ratingScore": 628,
+    "selected": false
+  },
+  {
+    "id": 26,
+    "vocadbId": 24039,
+    "title": "クノイチでも恋がしたい",
+    "producers": [
+      "みきとP",
+      "スズム"
+    ],
+    "artists": [
+      "初音ミク",
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/eI4F8vuxoQE/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/eI4F8vuxoQE",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20413055",
+    "ratingScore": 603,
+    "selected": true
+  },
+  {
+    "id": 27,
+    "vocadbId": 23087,
+    "title": "夜咄ディセイブ",
+    "producers": [
+      "じん"
+    ],
+    "artists": [
+      "IA"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/aPDaFGqMX4I/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/aPDaFGqMX4I",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20116702",
+    "ratingScore": 573,
+    "selected": true
+  },
+  {
+    "id": 28,
+    "vocadbId": 21110,
+    "title": "3年C組14番窪園チヨコの入閣",
+    "producers": [
+      "椎名もた"
+    ],
+    "artists": [
+      "鏡音リン Append (Warm)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/bS18DC9mJpo/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/bS18DC9mJpo",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20238968",
+    "ratingScore": 549,
+    "selected": true
+  },
+  {
+    "id": 29,
+    "vocadbId": 65736,
+    "title": "スノーマン",
+    "producers": [
+      "halyosy"
+    ],
+    "artists": [
+      "KAITO V3 (Straight)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/SQx60Rk6Ez4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/SQx60Rk6Ez4",
+    "niconicoUrl": null,
+    "ratingScore": 548,
+    "selected": false
+  },
+  {
+    "id": 30,
+    "vocadbId": 41593,
+    "title": "いかないで",
+    "producers": [
+      "想太"
+    ],
+    "artists": [
+      "歌愛ユキ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/ct_NaWo8azc/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/wKiriOAFUWY",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm22001720",
+    "ratingScore": 521,
+    "selected": false
+  },
+  {
+    "id": 31,
+    "vocadbId": 21064,
+    "title": "エレクトロサチュレイタ",
+    "producers": [
+      "tilt-six"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/hN2PJ8mBF6w/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/hN2PJ8mBF6w",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm19807355",
+    "ratingScore": 514,
+    "selected": true
+  },
+  {
+    "id": 32,
+    "vocadbId": 29183,
+    "title": "イドラのサーカス",
+    "producers": [
+      "Neru"
+    ],
+    "artists": [
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/u6lHwB3e-z8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/u6lHwB3e-z8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20765934",
+    "ratingScore": 495,
+    "selected": true
+  },
+  {
+    "id": 33,
+    "vocadbId": 25896,
+    "title": "ロスタイムメモリー",
+    "producers": [
+      "じん"
+    ],
+    "artists": [
+      "IA"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/yJTQuDCnMjg/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/yJTQuDCnMjg",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20470051",
+    "ratingScore": 471,
+    "selected": true
+  },
+  {
+    "id": 34,
+    "vocadbId": 35526,
+    "title": "ホップ！ステップ！即死！シアワセダンスデストラップ",
+    "producers": [
+      "うたたP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/VO7sAWMIoKI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/VO7sAWMIoKI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21430267",
+    "ratingScore": 461,
+    "selected": true
+  },
+  {
+    "id": 35,
+    "vocadbId": 28153,
+    "title": "Splatter Party",
+    "producers": [
+      "かめりあ"
+    ],
+    "artists": [
+      "初音ミク Append (Sweet)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/I7MmdMzfba4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/I7MmdMzfba4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20645871",
+    "ratingScore": 433,
+    "selected": true
+  },
+  {
+    "id": 36,
+    "vocadbId": 86781,
+    "title": "クラゲ",
+    "producers": [
+      "ころんば"
+    ],
+    "artists": [
+      "ころんば4号",
+      "唄音ウタ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/pskoRCJytR8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/pskoRCJytR8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm30861560",
+    "ratingScore": 431,
+    "selected": true
+  },
+  {
+    "id": 37,
+    "vocadbId": 24309,
+    "title": "リンカーネイション",
+    "producers": [
+      "kemu"
+    ],
+    "artists": [
+      "GUMI",
+      "鏡音リン Append (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/1EXGjYk_xXk/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/1EXGjYk_xXk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20423253",
+    "ratingScore": 400,
+    "selected": true
+  },
+  {
+    "id": 38,
+    "vocadbId": 44348,
+    "title": "皆殺しのマジック",
+    "producers": [
+      "鬱P"
+    ],
+    "artists": [
+      "V3 GUMI (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/nhTsixb254g/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/nhTsixb254g",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm22991979",
+    "ratingScore": 395,
+    "selected": true
+  },
+  {
+    "id": 39,
+    "vocadbId": 32854,
+    "title": "ぼうけんのしょがきえました！",
+    "producers": [
+      "じーざすP"
+    ],
+    "artists": [
+      "鏡音リン Append (Power)",
+      "鏡音レン Append (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/vqiULULdvMA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/vqiULULdvMA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm24909819",
+    "ratingScore": 387,
+    "selected": true
+  },
+  {
+    "id": 40,
+    "vocadbId": 108227,
+    "title": "あの女",
+    "producers": [
+      "しょうたろうP"
+    ],
+    "artists": [
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/P976xV_Yxks/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/P976xV_Yxks",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/nm21596709",
+    "ratingScore": 372,
+    "selected": true
+  },
+  {
+    "id": 41,
+    "vocadbId": 22102,
+    "title": "Twilight ∞ nighT",
+    "producers": [
+      "ひとしずくP",
+      "やま△"
+    ],
+    "artists": [
+      "初音ミク",
+      "鏡音リン",
+      "鏡音レン",
+      "巡音ルカ",
+      "KAITO",
+      "MEIKO",
+      "GUMI",
+      "神威がくぽ"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/x847XAeQxAQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/x847XAeQxAQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20081073",
+    "ratingScore": 363,
+    "selected": true
+  },
+  {
+    "id": 42,
+    "vocadbId": 25899,
+    "title": "アヤノの幸福理論",
+    "producers": [
+      "じん",
+      "ずきお",
+      "中西亮輔"
+    ],
+    "artists": [
+      "IA"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/pLYKKC-EpjA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/pLYKKC-EpjA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20671920",
+    "ratingScore": 351,
+    "selected": true
+  },
+  {
+    "id": 43,
+    "vocadbId": 22869,
+    "title": "上弦の月",
+    "producers": [
+      "黒うさP"
+    ],
+    "artists": [
+      "KAITO V3 (Soft)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/-r_sn_pF5Pw/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/-r_sn_pF5Pw",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21360174",
+    "ratingScore": 349,
+    "selected": true
+  },
+  {
+    "id": 44,
+    "vocadbId": 22922,
+    "title": "Redial",
+    "producers": [
+      "kz"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/243vPl8HdVk/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/243vPl8HdVk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21367847",
+    "ratingScore": 346,
+    "selected": true
+  },
+  {
+    "id": 45,
+    "vocadbId": 22858,
+    "title": "魔法少女幸福論",
+    "producers": [
+      "トーマ",
+      "魚"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/kjrGsYQVpSo/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/kjrGsYQVpSo",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20503130",
+    "ratingScore": 345,
+    "selected": true
+  },
+  {
+    "id": 46,
+    "vocadbId": 28648,
+    "title": "サマータイムレコード",
+    "producers": [
+      "じん"
+    ],
+    "artists": [
+      "IA"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/qB4xRKllyeI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/qB4xRKllyeI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm21737751",
+    "ratingScore": 342,
+    "selected": true
+  },
+  {
+    "id": 47,
+    "vocadbId": 23473,
+    "title": "透明エレジー",
+    "producers": [
+      "n-buna"
+    ],
+    "artists": [
+      "V3 GUMI (Power)",
+      "V3 GUMI (Whisper)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/U2-K_eFGtJM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/U2-K_eFGtJM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20132624",
+    "ratingScore": 327,
+    "selected": true
+  },
+  {
+    "id": 48,
+    "vocadbId": 28150,
+    "title": "ぴんこすてぃっくLuv",
+    "producers": [
+      "Giga",
+      "おればななP"
+    ],
+    "artists": [
+      "鏡音レン Append (Power)",
+      "鏡音リン Append (Power)"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/gfSPeQkuyZ4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/gfSPeQkuyZ4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20644278",
+    "ratingScore": 323,
+    "selected": true
+  },
+  {
+    "id": 49,
+    "vocadbId": 21761,
+    "title": "テーハミント",
+    "producers": [
+      "MARETU"
+    ],
+    "artists": [
+      "初音ミク",
+      "GUMI"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/Fm9zxy0jCSc/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/Fm9zxy0jCSc",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm19897886",
+    "ratingScore": 316,
+    "selected": false
+  },
+  {
+    "id": 50,
+    "vocadbId": 28500,
+    "title": "デンパラダイム",
+    "producers": [
+      "lumo"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/tKiV4n1a9No/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/tKiV4n1a9No",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm20688147",
+    "ratingScore": 307,
+    "selected": false
+  }
+]

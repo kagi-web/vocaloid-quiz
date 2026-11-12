@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ボカロサムネ当てクイズ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ボカロサムネ当てクイズ">
+  <meta name="twitter:description" content="サムネイルから、ボカロ曲を当てるクイズサイト">
+  <meta name="twitter:image" content="https://kagi-web.github.io/vocaloid-quiz/ogp.png">
+
+  <script src="js/home.js" defer></script>
+</head>
+<body>
+  <main class="home">
+    <section class="home-card">
+      <p class="eyebrow">VOCALOID THUMBNAIL QUIZ</p>
+      <h1>ボカロサムネ当てクイズ</h1>
+      <p class="lead">サムネイルから、曲名を当てよう！</p>
+
+      <div class="rules">
+        <h2>ルール</h2>
+       <ul class="rules-list">
+        <li>サムネイルの一部分を見て、4つの選択肢から曲名を選びます。</li>
+        <li>出題される楽曲はランダムに選ばれます。</li>
+        <li>「回答する」を押すと正誤が判定されます。</li>
+        <li>不正解が<span class="highlight">3回</span>になるか、<span class="highlight">100問</span>に到達するとゲーム終了です。</li>
+      </ul>
+      </div>
+
+      <button id="startButton" class="primary-button">
+        ゲームスタート
+      </button>
+
+      <p id="homeStatus" class="status"></p>
+    </section>
+  </main>
+
+<footer class="site-footer">
+    <div class="credit">
+      <div class="credit-links">
+          <p>
+              Powered by
+              <a href="https://vocadb.net/" target="_blank" rel="noopener noreferrer">VocaDB</a>
+          </p>
+          <span>/</span>
+          <p class="credit-owner">
+          運営者：
+            <a href="https://x.com/kagi_voca" target="_blank" rel="noopener noreferrer">kagi</a>
+          </p>
+      </div>
+
+      <a href="privacy.html">プライバシーポリシー</a>
+
+  </div>
+</footer>
+
+</body>
+</html>

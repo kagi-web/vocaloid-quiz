@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>クイズ - ボカロサムネ当てクイズ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ボカロサムネ当てクイズ">
+  <meta name="twitter:description" content="サムネイルから、ボカロ曲を当てるクイズサイト">
+  <meta name="twitter:image" content="https://kagi-web.github.io/vocaloid-quiz/ogp.png">
+
+
+  <script src="js/quiz.js" defer></script>
+</head>
+<body>
+
+  <main class="quiz-page">
+
+    <header class="quiz-header">
+      <div class="scoreboard">
+        <span><strong id="questionCount">1</strong> 問目</span>
+        <span>正解 <strong id="correctCount">0</strong></span>
+        <span>不正解 <strong id="missCount">0</strong> / 3</span>
+      </div>
+    </header>
+
+    <!-- 読み込み画面 -->
+    <section id="loadingPanel" class="panel loading-panel">
+      <div class="spinner"></div>
+      <p id="loadingText">楽曲データを読み込んでいます...</p>
+    </section>
+
+    <!-- クイズ画面 -->
+    <section id="questionPanel" class="panel" hidden>
+
+      <div class="question-heading">
+        <span id="questionNumber" class="eyebrow">QUESTION 1</span>
+        <h1>このサムネイルの曲は？</h1>
+      </div>
+
+        <div class="thumbnail-container">
+            <!-- サムネイル画像本体 -->
+            <img id="thumbnailImage" class="thumbnail-image" src="" alt="クイズ画像">
+
+            <!-- 画像の上に重ねる12枚のタイル -->
+            <div id="thumbnailGrid" class="tile-grid"></div>
+        </div>
+
+      <!-- 正誤表示 -->
+      <div id="feedback" class="feedback"></div>
+
+      <!-- 選択肢 -->
+      <div id="choices" class="choices"></div>
+
+      <!-- ボタン -->
+      <div class="action-area">
+        <button id="answerButton" class="primary-button" disabled>
+          回答する
+        </button>
+
+        <button id="nextButton" class="primary-button" hidden>
+          次の問題へ
+        </button>
+      </div>
+
+    </section>
+
+    <!-- 結果画面 -->
+    <section id="resultPanel" class="panel result-panel" hidden>
+
+      <p class="eyebrow">RESULT</p>
+      <h1>ゲーム終了！</h1>
+
+      <p class="result-score">
+        正解数：
+        <strong id="finalScore">0</strong>
+        問
+      </p>
+
+      <p id="resultMessage" class="result-message"></p>
+
+      <button id="retryButton" class="primary-button">
+        もう一度遊ぶ
+      </button>
+
+      <a class="text-link result-home-link" href="index.html">
+        ホームに戻る
+      </a>
+
+    </section>
+
+    <footer>
+      <a class="text-link" href="index.html">← ホームに戻る</a>
+    </footer>
+
+  </main>
+
+
+</body>
+</html>

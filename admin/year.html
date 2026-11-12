@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>年度別楽曲一覧</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Vocaloid Database</h1>
+        <p>楽曲データ管理</p>
+    </header>
+
+    <main class="container">
+
+        <a href="index.html" class="back-link">
+            ← 年代一覧に戻る
+        </a>
+
+        <section class="year-header">
+            <h2 id="yearTitle">----</h2>
+
+            <div class="year-total">
+                選択中：
+                <strong id="yearCount">---</strong> 曲
+            </div>
+        </section>
+
+        <section>
+            <div id="songList" class="song-grid">
+                <p>データを読み込み中...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/year.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楽曲データ管理</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Vocaloid Database</h1>
+        <p>楽曲データ管理</p>
+    </header>
+
+    <main class="container">
+
+        <section class="total-section">
+            <p>選択中の楽曲数</p>
+            <div class="total-count">
+                <span id="totalCount">---</span>
+                <span class="unit">曲</span>
+            </div>
+        </section>
+
+        <section class="year-section">
+            <h2>年代別楽曲一覧</h2>
+
+            <div id="yearList" class="year-grid">
+                <p>データを読み込み中...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

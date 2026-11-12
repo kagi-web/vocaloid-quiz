@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    "Noto Sans JP",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+/* ページ全体 */
+.privacy-page {
+  min-height: 100vh;
+  padding: 40px 20px 60px;
+  background: #f3f8f6;
+  color: #30454b;
+}
+
+.privacy-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+.privacy-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.privacy-header h1 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #30454b;
+}
+
+.privacy-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #82969a;
+}
+
+/* 本文カード */
+.privacy-card {
+  padding: 35px 40px;
+  background: #ffffff;
+  border: 1px solid #e2ece9;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(48, 69, 75, 0.04);
+}
+
+/* 最初の説明文 */
+.intro {
+  margin: 0 0 32px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #52676c;
+}
+
+/* 各項目 */
+.privacy-section {
+  margin-bottom: 32px;
+}
+
+.privacy-section:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-section h2 {
+  margin: 0 0 14px;
+  padding-left: 12px;
+  border-left: 4px solid #55cbb3;
+  font-size: 18px;
+  font-weight: 700;
+  color: #30454b;
+}
+
+.privacy-section p {
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #52676c;
+}
+
+.privacy-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* リンク */
+.privacy-section a,
+.privacy-footer a {
+  color: #35aa96;
+  text-decoration: none;
+}
+
+.privacy-section a:hover,
+.privacy-footer a:hover {
+  text-decoration: underline;
+}
+
+/* トップページへ戻る */
+.privacy-back {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.privacy-back a {
+  display: inline-block;
+  padding: 11px 28px;
+  border: 1px solid #55cbb3;
+  border-radius: 30px;
+  color: #35aa96;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.privacy-back a:hover {
+  background: #55cbb3;
+  color: #ffffff;
+}
+
+
+
+
+/* スマートフォン */
+@media (max-width: 600px) {
+  .privacy-page {
+    padding: 30px 15px 45px;
+  }
+
+  .privacy-header h1 {
+    font-size: 24px;
+  }
+
+  .privacy-card {
+    padding: 25px 20px;
+    border-radius: 14px;
+  }
+
+  .intro {
+    font-size: 13px;
+  }
+
+  .privacy-section h2 {
+    font-size: 16px;
+  }
+
+  .privacy-section p {
+    font-size: 13px;
+  }
+}

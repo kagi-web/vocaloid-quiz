@@ -1,0 +1,487 @@
+[
+  {
+    "id": 1,
+    "vocadbId": 1322,
+    "title": "メルト",
+    "producers": [
+      "ryo"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/BDDYKsNRW3k/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/BDDYKsNRW3k",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1715919",
+    "ratingScore": 1878,
+    "selected": true
+  },
+  {
+    "id": 2,
+    "vocadbId": 1355,
+    "title": "みくみくにしてあげる♪【してやんよ】",
+    "producers": [
+      "ika_mo"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/-N5XNRNhdcA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/HYxWRTPn9vM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1097445",
+    "ratingScore": 915,
+    "selected": true
+  },
+  {
+    "id": 3,
+    "vocadbId": 3658,
+    "title": "ミラクルペイント",
+    "producers": [
+      "OSTER project"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/gqPWXe0dCC4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/gqPWXe0dCC4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1588476",
+    "ratingScore": 826,
+    "selected": true
+  },
+  {
+    "id": 4,
+    "vocadbId": 2734,
+    "title": "melody...",
+    "producers": [
+      "mikuru396"
+    ],
+    "artists": [
+      "初音ミク",
+      "Zarvox"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/SjqjJvMEodI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/SjqjJvMEodI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1381337",
+    "ratingScore": 567,
+    "selected": true
+  },
+  {
+    "id": 5,
+    "vocadbId": 9000,
+    "title": "忘却心中",
+    "producers": [
+      "OPA"
+    ],
+    "artists": [
+      "MEIKO"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/R8F8xpkffB8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/R8F8xpkffB8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1587618",
+    "ratingScore": 457,
+    "selected": false
+  },
+  {
+    "id": 6,
+    "vocadbId": 2442,
+    "title": "ストロボナイツ",
+    "producers": [
+      "kz"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/l62uUZqz0Z8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/l62uUZqz0Z8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1657814",
+    "ratingScore": 437,
+    "selected": true
+  },
+  {
+    "id": 7,
+    "vocadbId": 7235,
+    "title": "私の時間",
+    "producers": [
+      "くちばしP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/e4Yo0bntsvM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/e4Yo0bntsvM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1340413",
+    "ratingScore": 394,
+    "selected": false
+  },
+  {
+    "id": 8,
+    "vocadbId": 10767,
+    "title": "White Letter",
+    "producers": [
+      "GonGoss"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/PfzDHtab7Bo/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/PfzDHtab7Bo",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1028001",
+    "ratingScore": 368,
+    "selected": false
+  },
+  {
+    "id": 9,
+    "vocadbId": 2923,
+    "title": "金の聖夜霜雪に朽ちて",
+    "producers": [
+      "デッドボールP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/Z05MHD3TSsA/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/Z05MHD3TSsA",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1807929",
+    "ratingScore": 280,
+    "selected": false
+  },
+  {
+    "id": 10,
+    "vocadbId": 2440,
+    "title": "ファインダー",
+    "producers": [
+      "kz"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/Hh0dqDK9yEM/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/Hh0dqDK9yEM",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1952223",
+    "ratingScore": 268,
+    "selected": true
+  },
+  {
+    "id": 11,
+    "vocadbId": 8230,
+    "title": "永久に続く五線譜",
+    "producers": [
+      "デッドボールP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/p1sh68qk4Nk/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/p1sh68qk4Nk",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1647289",
+    "ratingScore": 225,
+    "selected": false
+  },
+  {
+    "id": 12,
+    "vocadbId": 108735,
+    "title": "ハト",
+    "producers": [
+      "秦野P"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/gEXd4gHb2Y8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/gEXd4gHb2Y8",
+    "niconicoUrl": null,
+    "ratingScore": 222,
+    "selected": false
+  },
+  {
+    "id": 13,
+    "vocadbId": 18376,
+    "title": "tower of sunz",
+    "producers": [
+      "すんｚりヴぇｒP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/oXqO0ShTWI8/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/oXqO0ShTWI8",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm3391134",
+    "ratingScore": 212,
+    "selected": true
+  },
+  {
+    "id": 14,
+    "vocadbId": 30163,
+    "title": "ドキドキ☆百合学園",
+    "producers": [
+      "めたはあP"
+    ],
+    "artists": [
+      "初音ミク",
+      "鏡音リン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/3HAhrurq-_0/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/3HAhrurq-_0",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1878189",
+    "ratingScore": 205,
+    "selected": false
+  },
+  {
+    "id": 15,
+    "vocadbId": 230750,
+    "title": "えれくとりっく・えんじぇぅ",
+    "producers": [
+      "ヤスオ"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/MqqYV_r2x84/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/MqqYV_r2x84",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1185318",
+    "ratingScore": 195,
+    "selected": false
+  },
+  {
+    "id": 16,
+    "vocadbId": 295872,
+    "title": "初音ミクの消失",
+    "producers": [
+      "cosMo@暴走P"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/VWVtIg5cdDU/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/VWVtIg5cdDU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1476648",
+    "ratingScore": 186,
+    "selected": true
+  },
+  {
+    "id": 17,
+    "vocadbId": 4316,
+    "title": "俺のロードローラーだッ！",
+    "producers": [
+      "名誉会長P"
+    ],
+    "artists": [
+      "鏡音リン",
+      "鏡音レン"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/2jMD_CSDjUc/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/2jMD_CSDjUc",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1925468",
+    "ratingScore": 179,
+    "selected": true
+  },
+  {
+    "id": 18,
+    "vocadbId": 3027,
+    "title": "Innocence",
+    "producers": [
+      "KazuP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://nicovideo.cdn.nimg.jp/thumbnails/1811770/1811770",
+    "youtubeUrl": null,
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1811770",
+    "ratingScore": 176,
+    "selected": true
+  },
+  {
+    "id": 19,
+    "vocadbId": 5635,
+    "title": "子猫のパヤパヤ",
+    "producers": [
+      "ワンカップP"
+    ],
+    "artists": [
+      "初音ミク",
+      "MEIKO"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/QInOWiCYW8M/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/QInOWiCYW8M",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1336409",
+    "ratingScore": 169,
+    "selected": false
+  },
+  {
+    "id": 20,
+    "vocadbId": 5547,
+    "title": "Dreaming Leaf ‐ユメミルコトノハ‐",
+    "producers": [
+      "OSTER project"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/Idoi6TbICXI/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/Idoi6TbICXI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1235385",
+    "ratingScore": 151,
+    "selected": true
+  },
+  {
+    "id": 21,
+    "vocadbId": 5839,
+    "title": "白の季節",
+    "producers": [
+      "ゆうゆ"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/GGn_mvSl9IU/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/GGn_mvSl9IU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1646686",
+    "ratingScore": 148,
+    "selected": true
+  },
+  {
+    "id": 22,
+    "vocadbId": 100671,
+    "title": "Packaged",
+    "producers": [
+      "kz"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/VmP7KGD65y4/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/VmP7KGD65y4",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1111376",
+    "ratingScore": 141,
+    "selected": true
+  },
+  {
+    "id": 23,
+    "vocadbId": 11767,
+    "title": "コンビニ",
+    "producers": [
+      "cokesi"
+    ],
+    "artists": [
+      "初音ミク",
+      "Speak & Spell"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/4XBO1do6ylU/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/4XBO1do6ylU",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1908098",
+    "ratingScore": 131,
+    "selected": false
+  },
+  {
+    "id": 24,
+    "vocadbId": 3018,
+    "title": "ほんとは分かってる",
+    "producers": [
+      "フナコシP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/1dB8in_QRrw/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/1dB8in_QRrw",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1789851",
+    "ratingScore": 126,
+    "selected": false
+  },
+  {
+    "id": 25,
+    "vocadbId": 730922,
+    "title": "星のカケラ",
+    "producers": [
+      "平沢栄司"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/HeIwuwSaw4s/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/HeIwuwSaw4s",
+    "niconicoUrl": null,
+    "ratingScore": 100,
+    "selected": false
+  },
+  {
+    "id": 26,
+    "vocadbId": 5349,
+    "title": "きみをわすれない",
+    "producers": [
+      "ryo"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/LRkiAE9ATWQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/LRkiAE9ATWQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1656992",
+    "ratingScore": 96,
+    "selected": true
+  },
+  {
+    "id": 27,
+    "vocadbId": 10505,
+    "title": "氷結のディスコ",
+    "producers": [
+      "kiichi"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/TJYrAQ-wRKw/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/TJYrAQ-wRKw",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1845377",
+    "ratingScore": 94,
+    "selected": true
+  },
+  {
+    "id": 28,
+    "vocadbId": 249466,
+    "title": "恋スルVOC@LOID",
+    "producers": [
+      "OSTER project"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/EPvD4awhPmQ/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/EPvD4awhPmQ",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1049371",
+    "ratingScore": 94,
+    "selected": true
+  },
+  {
+    "id": 29,
+    "vocadbId": 5238,
+    "title": "PICO＠LUV (☆彡とvとAIのウタ。)",
+    "producers": [
+      "sasakure.UK"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/dd1aBvsqZ4k/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/dd1aBvsqZ4k",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1885027",
+    "ratingScore": 87,
+    "selected": false
+  },
+  {
+    "id": 30,
+    "vocadbId": 19120,
+    "title": "Forgotten...",
+    "producers": [
+      "オレP"
+    ],
+    "artists": [
+      "初音ミク"
+    ],
+    "thumbnailUrl": "https://i1.ytimg.com/vi/L_5zlhrjcCc/hqdefault.jpg",
+    "youtubeUrl": "https://youtu.be/HkLDXsz6feI",
+    "niconicoUrl": "http://www.nicovideo.jp/watch/sm1762073",
+    "ratingScore": 86,
+    "selected": false
+  }
+]

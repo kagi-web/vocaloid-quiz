@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f4f6f8;
+    color: #333;
+    font-family: sans-serif;
+}
+
+/* ヘッダー */
+
+.header {
+    background: #263238;
+    color: white;
+    padding: 22px 40px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0 0;
+    color: #b0bec5;
+    font-size: 14px;
+}
+
+/* 共通コンテナ */
+
+.container {
+    width: 1200px;
+    margin: 35px auto;
+}
+
+/* 合計曲数 */
+
+.total-section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.total-section p {
+    margin: 0;
+    color: #777;
+    font-size: 16px;
+}
+
+.total-count {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #4caf9a;
+}
+
+.unit {
+    font-size: 20px;
+}
+
+/* 年度一覧 */
+
+.year-section {
+    margin-top: 35px;
+}
+
+.year-section h2 {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.year-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.year-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #e5e5e5;
+    transition: 0.2s;
+}
+
+.year-card:hover {
+    border-color: #4caf9a;
+    transform: translateY(-3px);
+}
+
+.year-number {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.year-count {
+    color: #4caf9a;
+    font-weight: bold;
+}
+
+/* 戻るリンク */
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #4caf9a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* 年度見出し */
+
+.year-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.year-header h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.year-total {
+    background: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    color: #666;
+}
+
+.year-total strong {
+    color: #4caf9a;
+    font-size: 22px;
+}
+
+/* 楽曲カード */
+
+.song-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.song-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* サムネイル */
+
+.thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #e9ecef;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.no-thumbnail {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+}
+
+/* 楽曲情報 */
+
+.song-info {
+    padding: 18px;
+}
+
+.song-info h3 {
+    margin: 0 0 18px;
+    font-size: 18px;
+    line-height: 1.5;
+    min-height: 27px;
+    overflow-wrap: anywhere;
+}
+
+.info-row {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.info-label {
+    width: 95px;
+    flex-shrink: 0;
+    color: #888;
+    font-weight: bold;
+}
