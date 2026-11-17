@@ -169,6 +169,39 @@ h1 {
   cursor: not-allowed;
 }
 
+/* サブボタン（最初から始める） 
+.sub-button {
+  min-height: 50px;
+  padding: 13px 36px;
+  border: 1px solid var(--main);
+  border-radius: 10px;
+  background: #ffffff;
+  color: var(--main-dark);
+  font-weight: 800;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+  margin-top: 16px;
+  
+}
+
+.sub-button:hover:not(:disabled) {
+  background: var(--main-light);
+  transform: translateY(-1px);
+}
+
+.sub-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.sub-button:disabled {
+  background: #f0f5f3;
+  color: #aabbb5;
+  cursor: not-allowed;
+}
+*/
+
+
+
 /* テキストリンク */
 .text-link {
   color: var(--main-dark);
@@ -252,6 +285,9 @@ h1 {
   }
 
   .primary-button {
+    width: 100%;
+  }
+  .sub-button{
     width: 100%;
   }
 }

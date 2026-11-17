@@ -30,7 +30,7 @@
 
 /* パネル共通 */
 .panel {
-  margin: 0 auto 40px auto;
+  margin: 0 auto 30px auto;
   padding: clamp(18px, 4vw, 32px);
   background: var(--surface);
   border: 1px solid var(--line);
@@ -215,6 +215,24 @@
 .result-home-link {
   display: block;
   margin-top: 20px;
+}
+
+.share-x-button {
+  display: block;
+  margin: 0 auto 12px;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 12px;
+  background: #222;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.share-x-button:hover {
+  opacity: 0.8;
 }
 
 /* スマートフォン */
