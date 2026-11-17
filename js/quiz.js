@@ -36,7 +36,7 @@ let answered = false;
 let correctCount = 0;
 let missCount = 0;
 let questionCount = 0;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 100;
 
 
 
