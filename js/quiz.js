@@ -22,6 +22,7 @@ const feedback = document.getElementById("feedback");
 
 const scoreBoard = document.getElementById("scoreboard");
 const textLink = document.getElementById("text-link");
+const shareXButton = document.getElementById("shareXButton");
 
 let eligibleSongs = [];
 let questionSongs = [];
@@ -36,6 +37,94 @@ let correctCount = 0;
 let missCount = 0;
 let questionCount = 0;
 const MAX_QUESTIONS = 10;
+
+
+
+
+
+// ========================================
+// 再読み込み時の状態保存
+// ========================================
+
+const SAVE_KEY = "vocaloidQuizSave";
+
+let currentChoices = [];
+let revealedIndexes = [];
+
+// ========================================
+// ゲーム状態の保存・読み込み
+// ========================================
+
+function saveGame() {
+  const saveData = {
+    version: 1,
+
+    correctCount,
+    missCount,
+    questionCount,
+
+    currentQuestionId: currentQuestion
+      ? String(currentQuestion.vocadbId)
+      : null,
+
+    questionPoolIds: questionPool.map(song =>
+      String(song.vocadbId)
+    ),
+
+    selectedChoiceId,
+    answered,
+
+    currentChoices,
+    revealedIndexes
+  };
+
+  try {
+    localStorage.setItem(SAVE_KEY, JSON.stringify(saveData));
+  } catch (error) {
+    console.warn("ゲーム状態を保存できませんでした。", error);
+  }
+}
+
+
+function loadGame() {
+  try {
+    const data = localStorage.getItem(SAVE_KEY);
+
+    if (!data) return null;
+
+    const saveData = JSON.parse(data);
+
+    if (
+      saveData.version !== 1 ||
+      !saveData.currentQuestionId ||
+      !Array.isArray(saveData.questionPoolIds) ||
+      !Array.isArray(saveData.currentChoices) ||
+      saveData.currentChoices.length !== 4 ||
+      !Array.isArray(saveData.revealedIndexes)
+    ) {
+      return null;
+    }
+
+    return saveData;
+
+  } catch (error) {
+    console.warn("保存データを読み込めませんでした。", error);
+    return null;
+  }
+}
+
+
+function clearGameSave() {
+  try {
+    localStorage.removeItem(SAVE_KEY);
+  } catch (error) {
+    console.warn("保存データを削除できませんでした。", error);
+  }
+}
+
+
+
+
 
 // ========================================
 // 配列をランダムに並び替える
@@ -302,26 +391,65 @@ function getQuestionChoices(correctSong) {
 
 
 // ========================================
+// 選択肢を画面に表示
+// ========================================
+
+function renderChoices() {
+  choicesElement.innerHTML = "";
+
+  currentChoices.forEach(choice => {
+    const button = document.createElement("button");
+
+    button.type = "button";
+    button.className = "choice-button";
+    button.textContent = choice.title;
+    button.dataset.choiceId = choice.id;
+
+    button.addEventListener("click", () => {
+      selectChoice(choice.id);
+    });
+
+    if (selectedChoiceId === choice.id) {
+      button.classList.add("selected");
+    }
+
+    if (answered) {
+      button.disabled = true;
+
+      if (choice.id === String(currentQuestion.vocadbId)) {
+        button.classList.add("correct-answer");
+      }
+
+      if (
+        choice.id === selectedChoiceId &&
+        choice.id !== String(currentQuestion.vocadbId)
+      ) {
+        button.classList.add("wrong-answer");
+      }
+    }
+
+    choicesElement.appendChild(button);
+  });
+}
+
+
+
+
+// ========================================
 // 次の問題を表示
 // ========================================
 
 async function showNextQuestion() {
 
-  if (missCount >= 3) {
-
+  if (missCount >= 3 || questionCount >= MAX_QUESTIONS) {
     showResult();
     return;
-
   }
-
 
   // 出題候補を一周したら再度シャッフル
   if (questionPool.length === 0) {
-
     questionPool = shuffled(questionSongs);
-
   }
-
 
   currentQuestion = questionPool.pop();
 
@@ -329,7 +457,9 @@ async function showNextQuestion() {
   answered = false;
 
   questionCount++;
-  document.getElementById("questionCount").textContent = questionCount;
+
+  document.getElementById("questionCount").textContent =
+    questionCount;
 
   answerButton.hidden = false;
   answerButton.disabled = true;
@@ -339,21 +469,29 @@ async function showNextQuestion() {
   feedback.textContent = "";
   feedback.className = "feedback";
 
-  choicesElement.innerHTML = "";
-
   loadingPanel.hidden = false;
   questionPanel.hidden = true;
 
   loadingText.textContent = "サムネイルを読み込んでいます...";
 
+  // 先に選択肢と公開タイルを決定する
+  try {
+    currentChoices = getQuestionChoices(currentQuestion);
+  } catch (error) {
+    showError(error.message);
+    return;
+  }
+
+  revealedIndexes = pickRevealedIndexes();
+
+  // 画像読み込み前に保存
+  saveGame();
 
   // 現在の問題の画像だけ読み込む
   try {
-
     await preloadImage(currentQuestion.thumbnailUrl);
 
   } catch (error) {
-
     console.warn(error);
 
     // 読み込めなかった画像は出題候補から除外
@@ -365,71 +503,35 @@ async function showNextQuestion() {
       String(song.vocadbId) !== String(currentQuestion.vocadbId)
     );
 
-    if (questionSongs.length === 0) {
+    // 画像エラーでは問題数を消費しない
+    questionCount--;
 
+    currentQuestion = null;
+    currentChoices = [];
+    revealedIndexes = [];
+
+    if (questionSongs.length === 0) {
+      clearGameSave();
       showError("読み込み可能なサムネイル画像がありません。");
       return;
-
     }
 
     if (questionPool.length === 0) {
-
       questionPool = shuffled(questionSongs);
-
     }
 
     await showNextQuestion();
-
     return;
-
   }
 
-
-  // サムネイルの一部をランダム公開
-  const revealedIndexes = pickRevealedIndexes();
-
+  // サムネイルを表示
   makeTileGrid(
     currentQuestion.thumbnailUrl,
     revealedIndexes
   );
 
-
-  // 4択を作成
-  let questionChoices;
-
-  try {
-
-    questionChoices = getQuestionChoices(currentQuestion);
-
-  } catch (error) {
-
-    showError(error.message);
-    return;
-
-  }
-
-
-  // 選択肢を画面に表示
-  questionChoices.forEach(choice => {
-
-    const button = document.createElement("button");
-
-    button.type = "button";
-
-    button.className = "choice-button";
-
-    button.textContent = choice.title;
-
-    button.dataset.choiceId = choice.id;
-
-    button.addEventListener("click", () => {
-      selectChoice(choice.id);
-    });
-
-    choicesElement.appendChild(button);
-
-  });
-
+  // 選択肢を表示
+  renderChoices();
 
   document.getElementById("questionNumber").textContent =
     `QUESTION ${questionCount}`;
@@ -440,9 +542,11 @@ async function showNextQuestion() {
   document.getElementById("missCount").textContent =
     missCount;
 
-
   loadingPanel.hidden = true;
   questionPanel.hidden = false;
+
+  // 表示状態を保存
+  saveGame();
 }
 
 
@@ -466,6 +570,7 @@ function selectChoice(choiceId) {
   });
 
   answerButton.disabled = false;
+  saveGame();
 }
 
 
@@ -547,6 +652,8 @@ function submitAnswer() {
     missCount >= 3 || questionCount >= MAX_QUESTIONS
       ? "結果を見る"
       : "次の問題へ";
+
+  saveGame();
 }
 
 
@@ -556,10 +663,14 @@ function submitAnswer() {
 
 function showResult() {
 
+  clearGameSave();
+
   questionPanel.hidden = true;
   loadingPanel.hidden = true;
   textLink.hidden = true;
   resultPanel.hidden = false;
+  shareXButton.hidden = false;
+  
 
   document.getElementById("finalScore").textContent =
     correctCount;
@@ -567,7 +678,22 @@ function showResult() {
   document.getElementById("resultMessage").textContent =
     `全${questionCount}問中、${correctCount}問正解でした。`;
 
+  
+
 }
+
+document.getElementById("shareXButton").addEventListener("click", () => {
+  const text =
+    `ボカロサムネイルクイズに挑戦！\n\n` +
+    `全${questionCount}問中、${correctCount}問正解でした！\n\n` +
+    `#ボカロサムネイルクイズ`;
+
+  const shareUrl =
+    "https://twitter.com/intent/tweet?text=" + encodeURIComponent(text);
+
+  window.open(shareUrl, "_blank", "noopener,noreferrer");
+});
+
 
 
 // ========================================
@@ -584,18 +710,201 @@ function showError(message) {
 }
 
 
+
+
+// ========================================
+// 保存されたゲーム状態を復元
+// ========================================
+
+async function restoreGame(saveData) {
+
+  const songsById = new Map(
+    questionSongs.map(song => [
+      String(song.vocadbId),
+      song
+    ])
+  );
+
+  currentQuestion = songsById.get(
+    String(saveData.currentQuestionId)
+  );
+
+  if (!currentQuestion) {
+    return false;
+  }
+
+  questionPool = saveData.questionPoolIds
+    .map(id => songsById.get(String(id)))
+    .filter(Boolean);
+
+  currentChoices = saveData.currentChoices.map(choice => ({
+    id: String(choice.id),
+    title: choice.title,
+    isCorrect: Boolean(choice.isCorrect)
+  }));
+
+  const correctChoice = currentChoices.find(
+    choice => choice.id === String(currentQuestion.vocadbId)
+  );
+
+  if (
+    currentChoices.length !== 4 ||
+    !correctChoice ||
+    currentChoices.some(choice => typeof choice.title !== "string")
+  ) {
+    return false;
+  }
+
+  revealedIndexes = saveData.revealedIndexes.filter(
+    index =>
+      Number.isInteger(index) &&
+      index >= 0 &&
+      index < 12
+  );
+
+  correctCount = Number(saveData.correctCount) || 0;
+  missCount = Number(saveData.missCount) || 0;
+  questionCount = Number(saveData.questionCount) || 0;
+
+  selectedChoiceId =
+    saveData.selectedChoiceId === null
+      ? null
+      : String(saveData.selectedChoiceId);
+
+  answered = Boolean(saveData.answered);
+
+  // 回答済みなのに選択肢がない場合は復元しない
+  if (answered && !selectedChoiceId) {
+    return false;
+  }
+
+  // 現在の問題の画像を読み込む
+  try {
+    await preloadImage(currentQuestion.thumbnailUrl);
+
+  } catch (error) {
+    console.warn("保存された問題の画像を読み込めませんでした。", error);
+
+    // 読み込めない曲は除外
+    questionSongs = questionSongs.filter(song =>
+      String(song.vocadbId) !== String(currentQuestion.vocadbId)
+    );
+
+    questionPool = questionPool.filter(song =>
+      String(song.vocadbId) !== String(currentQuestion.vocadbId)
+    );
+
+    // この問題は消費しない
+    questionCount--;
+
+    currentQuestion = null;
+    currentChoices = [];
+    revealedIndexes = [];
+    selectedChoiceId = null;
+    answered = false;
+
+    if (questionSongs.length === 0) {
+      clearGameSave();
+      showError("読み込み可能なサムネイル画像がありません。");
+      return true;
+    }
+
+    if (questionPool.length === 0) {
+      questionPool = shuffled(questionSongs);
+    }
+
+    await showNextQuestion();
+    return true;
+  }
+
+  // サムネイルを復元
+  makeTileGrid(
+    currentQuestion.thumbnailUrl,
+    revealedIndexes
+  );
+
+  // 回答済みならサムネイル全体を公開
+  if (answered) {
+    revealWholeThumbnail();
+  }
+
+  // 選択肢を復元
+  renderChoices();
+
+  // 問題数・スコアを復元
+  document.getElementById("questionCount").textContent =
+    questionCount;
+
+  document.getElementById("questionNumber").textContent =
+    `QUESTION ${questionCount}`;
+
+  document.getElementById("correctCount").textContent =
+    correctCount;
+
+  document.getElementById("missCount").textContent =
+    missCount;
+
+  if (answered) {
+
+    const isCorrect =
+      selectedChoiceId === String(currentQuestion.vocadbId);
+
+    feedback.textContent = isCorrect
+      ? "正解！"
+      : "不正解！";
+
+    feedback.className = isCorrect
+      ? "feedback correct"
+      : "feedback incorrect";
+
+    answerButton.hidden = true;
+    nextButton.hidden = false;
+
+    nextButton.textContent =
+      missCount >= 3 || questionCount >= MAX_QUESTIONS
+        ? "結果を見る"
+        : "次の問題へ";
+
+  } else {
+
+    feedback.textContent = "";
+    feedback.className = "feedback";
+
+    answerButton.hidden = false;
+    answerButton.disabled = selectedChoiceId === null;
+
+    nextButton.hidden = true;
+  }
+
+  loadingPanel.hidden = true;
+  questionPanel.hidden = false;
+
+  saveGame();
+
+  return true;
+}
+
+
+
+
 // ========================================
 // ゲーム開始・リトライ
 // ========================================
 
-async function startGame() {
+async function startGame(resume = false) {
 
   loadingPanel.hidden = false;
   questionPanel.hidden = true;
+  textLink.hidden = false;
   resultPanel.hidden = true;
+  shareXButton.hidden = true;
 
   loadingText.textContent = "楽曲データを読み込んでいます...";
 
+  // 新規ゲームの場合は保存データを削除
+  if (!resume) {
+    clearGameSave();
+  }
 
   correctCount = 0;
   missCount = 0;
@@ -606,12 +915,13 @@ async function startGame() {
 
   answered = false;
 
+  currentChoices = [];
+  revealedIndexes = [];
 
   try {
 
     // 全年のJSONを読み込む
     eligibleSongs = await loadAllSongs();
-
 
     // 正解として出題できる曲はサムネイル付きに限定
     questionSongs = eligibleSongs.filter(song => {
@@ -623,31 +933,51 @@ async function startGame() {
 
     });
 
-
     if (eligibleSongs.length < 4) {
-
       throw new Error(
         "selected:true の曲が4曲未満です。"
       );
-
     }
 
     if (questionSongs.length === 0) {
-
       throw new Error(
         "selected:true でサムネイル付きの曲がありません。"
       );
-
     }
 
+    // 保存データがあれば復元を試みる
+    if (resume) {
+
+      const saveData = loadGame();
+
+      if (saveData) {
+        const restored = await restoreGame(saveData);
+
+        if (restored) {
+          return;
+        }
+      }
+
+      // 復元できなかった場合は新規ゲームとして開始
+      clearGameSave();
+
+      correctCount = 0;
+      missCount = 0;
+      questionCount = 0;
+
+      currentQuestion = null;
+      selectedChoiceId = null;
+      answered = false;
+
+      currentChoices = [];
+      revealedIndexes = [];
+    }
 
     // 出題順をランダムにする
     questionPool = shuffled(questionSongs);
 
-
     document.getElementById("correctCount").textContent = 0;
     document.getElementById("missCount").textContent = 0;
-
 
     // 最初の問題を表示
     await showNextQuestion();
@@ -686,9 +1016,10 @@ nextButton.addEventListener("click", () => {
 
 document.getElementById("retryButton").addEventListener(
   "click",
-  startGame
+  () => startGame(false)
 );
 
 
-// ページ読み込み時にゲーム開始
-startGame();
+// ページ読み込み時は保存データの復元を試みる
+startGame(true);
+
