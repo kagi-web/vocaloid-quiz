@@ -684,9 +684,10 @@ function showResult() {
 
 document.getElementById("shareXButton").addEventListener("click", () => {
   const text =
-    `ボカロサムネイルクイズに挑戦！\n\n` +
-    `全${questionCount}問中、${correctCount}問正解でした！\n\n` +
-    `#ボカロサムネイルクイズ`;
+    `ボカロサムネ当てクイズに挑戦！\n` +
+    `全${questionCount}問中、${correctCount}問正解でした！\n` +
+    `https://kagi-web.github.io/vocaloid-quiz/\n` +
+    `#ボカロサムネ当てクイズ`;
 
   const shareUrl =
     "https://twitter.com/intent/tweet?text=" + encodeURIComponent(text);
